@@ -19,10 +19,10 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: html # The folder the action should deploy.
 
-      - name: Deploy docs 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          token: ${{ secrets.TOKEN }}
-          branch: gh-pages # The branch the action should deploy to.
-          folder: docs/html # The folder the action should deploy.
-          target-folder: docs # The folder the action should deploy to.
+      # - name: Deploy docs 🚀
+      #   uses: JamesIves/github-pages-deploy-action@4.1.1
+      #   with:
+      #     token: ${{ secrets.TOKEN }}
+      #     branch: gh-pages # The branch the action should deploy to.
+      #     folder: docs/html # The folder the action should deploy.
+      #     target-folder: docs # The folder the action should deploy to.
